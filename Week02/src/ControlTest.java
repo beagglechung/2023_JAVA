@@ -2,8 +2,7 @@ interface Controllable  {
 	void play();
 	void stop();
 }
-
-public class ControllTest {
+public class ControlTest {
 	public static void main(String arg[]) {
 		Controllable c = new Controllable() {
 			public void play() {
