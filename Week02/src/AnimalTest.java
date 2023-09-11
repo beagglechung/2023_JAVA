@@ -3,6 +3,7 @@ interface Animal {
     void fly() ;
     void sing() ;
 }
+
 class Bird implements Animal {
     public void fly() {
         System.out.println("날을 수 있음");
